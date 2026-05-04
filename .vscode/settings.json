@@ -1,0 +1,26 @@
+{
+    "Lua.workspace.library": [
+        "${addons}/garrysmod/module/library"
+    ],
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.runtime.special": {
+        "include": "dofile",
+        "IncludeCS": "dofile"
+    },
+    "Lua.runtime.nonstandardSymbol": [
+        "continue",
+        "&&",
+        "||",
+        "!=",
+        "!",
+        "//"
+    ],
+    "Lua.diagnostics.disable": [
+        // "duplicate-set-field",
+        // "inject-field"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.globals": [
+        // "reimgt"
+    ]
+}
