@@ -15,4 +15,6 @@ end
 
 if SERVER then
     include("reimgt/sv_reimgt.lua")
+
+    include("reimgt/extra/sv_permaprops_support.lua")
 end

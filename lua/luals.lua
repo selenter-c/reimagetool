@@ -47,3 +47,12 @@ local ENTITY
 ---@param client Player
 function ENTITY:CPPISetOwner(client)
 end
+
+
+
+-- PermaProps documentation --
+
+---@class PermaProps
+---@field SpecialENTSSave table<string, fun(ent: Entity): { Other?: table, [string]: any } | nil>
+---@field SpecialENTSSpawn table<string, fun(ent: Entity, otherData: table | nil, ...: any): boolean?>
+PermaProps = PermaProps or {}
